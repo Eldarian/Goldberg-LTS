@@ -14,9 +14,6 @@ public class GameController : MonoBehaviour
         cameras[0].enabled = true;
         for(int i = 1; i < cameras.Length; i++)
         cameras[1].enabled = false;
-
-        ChangeCamera();
-        ChangeCamera();
     }
 
     private void Update()
